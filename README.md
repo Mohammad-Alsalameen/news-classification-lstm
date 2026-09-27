@@ -47,6 +47,20 @@ An LSTM-based neural network was developed using:
 
 The model is trained to classify news articles into the five predefined categories.
 
+## How to Run
+
+1. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Open the project using Jupyter Notebook or JupyterLab.
+
+3. Run `data_preprocessing.ipynb` to preprocess the dataset.
+
+4. Run `news_classifier_lstm.ipynb` to train and evaluate the LSTM model.
+
 ## Project Structure
 
 ```text
@@ -62,3 +76,4 @@ news-classification-lstm/
 │
 ├── README.md
 └── requirements.txt
+```
